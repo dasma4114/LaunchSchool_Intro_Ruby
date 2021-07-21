@@ -1,4 +1,5 @@
-#Write a program called name.rb that asks the user to type in their name and then prints out a greeting message with their name included.
+#Write a program called name.rb that asks the user to type in their name 
+#and then prints out a greeting message with their name included.
 
 puts "Enter your name: "
 name = gets.chomp
@@ -12,3 +13,14 @@ Hint: you can use the times method to do something repeatedly.
 =end
 
 10.times {puts "Hello there, #{name.capitalize}!"}
+
+#Modify name.rb again so that it first asks the user for their first name, saves it into a variable, 
+#and then does the same for the last name. Then outputs their full name all at once
+
+puts "Enter your first name: "
+first_name = gets.chomp
+
+puts "Enter your last name: "
+last_name = gets.chomp
+
+puts "Hello there, #{first_name.capitalize} #{last_name.capitalize}"
