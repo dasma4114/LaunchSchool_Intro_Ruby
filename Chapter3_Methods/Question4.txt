@@ -1,0 +1,14 @@
+#What will the following code print to the screen?
+
+def scream(words)
+  words = words + "!!!!"
+  return
+  puts words
+end
+
+scream("Yippeee")
+
+Answer:
+The program will not print anything to the screen. Since the return was explicitly
+called before the "puts words" expression, as soon as the return is ran by the program,
+the method will exit and whatever is below the "return" will not be executed.
