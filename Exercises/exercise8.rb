@@ -2,13 +2,9 @@
 
 
 my_hash = { # new way
-  a: 1, 
-  b:2, 
-  c:3
+  a: 1 
 }
 
 my_other_hash = { # old style, using shovel 
-  :a => 1,
-  :b => 2,
-  :c => 3
+  :a => 1
 }
